@@ -2,18 +2,17 @@
 
 ## Introduction
 
-The code bellow shows a program written in C# that reads a Word file, goes through each block, and remove paragraphs that are between some tags, eg **BEGIN** and **END** tags.
+The code bellow shows a program written in [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/) with [NPOI](https://github.com/tonyqus/npoi) that reads a Word file, goes through each block, and remove paragraphs that are between some tags, eg **BEGIN** and **END** tags.
 
 It is useful for cases when you want to make an output Word file with distinct parts for each case, eg. contracts that vary for different costumers, and you want to do this in a dynamic way.
 
-The complete project can be seen here:
 ## Background
 
-The solution is a very simple console application, but uses some advanced concepts of C# and OOP, like polymorphism and extension methods.
+The solution is a very simple console application, but uses some advanced concepts of C# and OOP, like [polymorphism](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/polymorphism) and [extension methods](https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods).
 
 ## Using the code
 
-Create a new console application project on Visual Studio and paste the code on Program.cs. Or you can use your favovite editor, in this case, type the following code to create the project using Dot Net Cli:
+Create a new console application project on Visual Studio and paste the code on Program.cs. Or you can use [your favovite editor](https://code.visualstudio.com/), in this case, type the following code to create the project using [.Net Cli](https://docs.microsoft.com/pt-br/dotnet/core/tools/?tabs=netcore2x):
 
 `dotnet new console`
 
