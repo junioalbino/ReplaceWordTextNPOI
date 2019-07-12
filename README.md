@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The code bellow shows a program written in [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/) with [NPOI](https://github.com/tonyqus/npoi) that reads a Word file, goes through each block, and remove paragraphs that are between some tags, eg **BEGIN** and **END** tags.
+The code bellow shows a program written in [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/) with [NPOI](https://github.com/tonyqus/npoi) that reads a Microsoft Word file, goes through each block, and remove paragraphs that are between some tags, eg **BEGIN** and **END** tags.
 
-It is useful for cases when you want to make an output Word file with distinct parts for each case, eg. contracts that vary for different costumers, and you want to do this in a dynamic way.
+This is useful for cases when you want to make an output Word file with distinct parts for each case, eg. contracts that vary for different costumers, and you want to do this in a dynamic way.
 
 ## Background
 
